@@ -1,0 +1,101 @@
+header{
+    width: 50%;
+    height: 10%;
+    background-color: #0856CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-top: 5px solid red;
+  }
+  p{
+    font-family: verdana,sans-serif;
+    font-size: 200%;
+    color: snow;
+  }
+  body{
+    background-color: #142D55;
+
+  }
+  div{
+    width: 50%;
+    background-color:whitesmoke;
+    height: 50%;
+
+
+  }
+  main{
+    font-size: 140%;
+    font: 140% bold;
+  }
+  span{
+    font-size: 110%;
+    font: 140% bold;
+    text-justify: initial;
+    text-align: justify-all;
+  }
+  .message-box1 {
+    width: 50%;
+    height: 50%;
+    float: right; 
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+}
+  .message-box2 {
+    width: 50%;
+  height: 50%;
+  float: left;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 22px;
+    position: relative;
+    display: inline-block;
+    position: relative;
+  }
+
+  .thinking-icon1 {
+    float: right;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-left: 2px;
+    position: position:revert-layer;
+    top: -40px;
+    right: -20px;
+    animation: pulse 1.5s infinite;
+  }
+  .thinking-icon2 {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    
+    position:relative;
+    
+    top: -10px;
+    left: -10px;
+    
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  h6{
+    position:sticky;
+
+  }
